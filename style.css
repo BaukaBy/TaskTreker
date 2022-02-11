@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 73px;
+  border-bottom: 1px solid #e5e9e5;
+}
+
+.header-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.nav {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #18191f;
+}
+
+.nav-link {
+  color: #18191f;
+  text-decoration: none;
+  margin-right: 32px;
+}
+
+.nav-link:hover {
+  color: #8c30f5;
+}
+
+.nav-link:last-child {
+  margin: 0;
+}
+
+.appstore {
+  margin-left: auto;
+  display: flex;
+}
+
+.appstore-item {
+  margin-left: 12px;
+}
+
+.appstore-item:first-child {
+  margin: 0;
+}
+
+/* main */
+
+.main-container {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 197px;
+  padding-bottom: 197px;
+}
+.main-content {
+  color: #18191f;
+}
+
+.main-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1.36;
+}
+
+.main-text {
+  margin-bottom: 32px;
+}
+
+.main-text p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.78;
+}
+
+.main-btn {
+  display: inline-block;
+  /* margin: 0; */
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-decoration: none;
+
+  color: #fff;
+  background-color: #8c30f5;
+
+  border: 2px solid #8c30f5;
+  border-radius: 8px;
+
+  padding: 16px 35px;
+}
+
+.main-img {
+  margin-left: 18px;
+}
+
+/* footer */
+
+.footer {
+  height: 72px;
+  background-color: #0b0d17;
+  display: flex;
+  align-items: center;
+}
+.footer-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text {
+  color: #d9dbe1;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25;
+}
+.footer-social {
+  color: #d9dbe1;
+  display: flex;
+}
+.footer-icon {
+  margin-right: 16px;
+}
+.footer-icon:last-child {
+  margin: 0;
+}
